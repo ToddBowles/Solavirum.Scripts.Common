@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Solavirum.Scripts.Common</id>
+        <version>$version$</version>
+        <authors>Todd.Bowles</authors>
+        <owners>Todd.Bowles</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A package that contains common deployment scripts for NuGet, Octopus, AWS.</description>
+        <releaseNotes></releaseNotes>
+        <copyright>Copyright ToddBowles</copyright>
+        <tags></tags>
+        <dependencies></dependencies>
+    </metadata>
+    <files>
+        <file src="..\scripts\common\*.ps1" exclude="**\*.tests.ps1" />
+    </files>
+</package>
